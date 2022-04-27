@@ -5,12 +5,14 @@ import data from '../src/components/Card/data'
 
 function App() {
   return (
-    <div className='m-3'>
+    <div className='m-3 flex justify-center flex-col align-middle'>
       <Navbar />
-      <div>
-        {data.map((item) => {
-          return <Card key={item.id} item={item}/>
-        })}
+      <div className='mx-auto'>
+        <div>
+          {data.map((item) => {
+            return <Card key={item.id} item={item} />
+          })}
+        </div>
       </div>
     </div>
   )

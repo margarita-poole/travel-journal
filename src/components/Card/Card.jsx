@@ -2,22 +2,22 @@ import pin from '../../assets/mapIcon.png'
 
 const Card = ({ item }) => {
   return (
-    <div className='border-slate-900 border-2'>
-      <div>
+    <div className='sm:mx-auto md:mx-32 my-24'>
+      <div className='flex basis-1/4 h-44'>
         <img src={item.image} alt='cardImage' />
-        <div>
-          <div>
-            <img src={pin} alt='map pin' />
-            <span>{item.location}</span>
+        <div className='flex flex-col ml-4 p-2'>
+          <div className='flex gap-2 my-auto'>
+            <img src={pin} alt='map pin' className='h-3 flex my-auto' />
+            <span className='tracking-widest'>{item.location}</span>
+            <span className='ml-3'>...link here</span>
           </div>
-          <span>View on Google Maps link</span>
-        </div>
-        <p>{item.title}</p>
-        <div>
-          <p>
-            {item.startDate} - {item.endDate}
-          </p>
-          <p>{item.description}</p>
+          <p className='text-3xl font-bold'>{item.title}</p>
+          <div className='mt-6'>
+            <p className='font-bold text-xs'>
+              {item.startDate} - {item.endDate}
+            </p>
+            <p className='mt-4 text-xs flex-wrap'>{item.description}</p>
+          </div>
         </div>
       </div>
     </div>
