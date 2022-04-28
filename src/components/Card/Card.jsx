@@ -9,7 +9,14 @@ const Card = ({ item }) => {
           <div className='flex gap-2 my-auto'>
             <img src={pin} alt='map pin' className='h-3 flex my-auto' />
             <span className='tracking-widest'>{item.location}</span>
-            <span className='ml-3'>...link here</span>
+            <a
+              href={item.googleMapsUrl}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='ml-3 text-stone-400 underline'
+            >
+              View on Google Maps
+            </a>
           </div>
           <p className='text-3xl font-bold'>{item.title}</p>
           <div className='mt-6'>

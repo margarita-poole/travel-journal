@@ -18,7 +18,7 @@ const cardData = [
     id: 2,
     title: 'Sydney Opera House',
     location: 'AUSTRALIA',
-    googleMapsUrl: 'https://goo.gl/maps/1DGM5WrWnATgkSNB8',
+    googleMapsUrl: 'https://www.google.com/maps/place/Sydney+Opera+House/@-33.8567844,151.213108,17z/',
     startDate: '27 May, 2021',
     endDate: '08 Jun, 2021',
     description:
@@ -29,7 +29,7 @@ const cardData = [
     id: 3,
     title: 'Geirangerfjord',
     location: 'NORWAY',
-    googleMapsUrl: 'https://goo.gl/maps/1DGM5WrWnATgkSNB8',
+    googleMapsUrl: 'https://www.google.com/maps/place/Geirangerfjord/@62.1047779,6.9351346,11z/',
     startDate: '01 Oct, 2021',
     endDate: '18 Nov, 2021',
     description:
