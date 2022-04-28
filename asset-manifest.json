@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/travel-journal/static/css/main.223fe4b6.css",
+    "main.js": "/travel-journal/static/js/main.053efd2e.js",
+    "static/js/787.39019643.chunk.js": "/travel-journal/static/js/787.39019643.chunk.js",
+    "static/media/Geirangerfjord.png": "/travel-journal/static/media/Geirangerfjord.e70bdb1392ca293c222f.png",
+    "static/media/SydneyOperaHouse.png": "/travel-journal/static/media/SydneyOperaHouse.a7777cfa13f9fdf2f71c.png",
+    "static/media/MountFuji.png": "/travel-journal/static/media/MountFuji.7125313dd9a7b8346e7a.png",
+    "index.html": "/travel-journal/index.html",
+    "main.223fe4b6.css.map": "/travel-journal/static/css/main.223fe4b6.css.map",
+    "main.053efd2e.js.map": "/travel-journal/static/js/main.053efd2e.js.map",
+    "787.39019643.chunk.js.map": "/travel-journal/static/js/787.39019643.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.223fe4b6.css",
+    "static/js/main.053efd2e.js"
+  ]
+}
